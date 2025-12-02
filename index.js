@@ -1,17 +1,3 @@
-/* @CLOVERMYT */
-
-// Canal: https://youtube.com/@clovermyt
-
-// Canal WhatsApp: https://whatsapp.com/channel/0029Va974hY2975B61INGX3Q
-
-// Instagram: https://www.instagram.com/clovermods?igsh=MmcyMHlrYnhoN2Zk
-
-// Telegram: t.me/cinco_folhas
-
-// Comunidade WhatsApp: https://chat.whatsapp.com/Kc5HLGCIokb37mA36NJrM6
-
-// SE FOR REPOSTAR ME MARCA 🧙‍♂️🍀
-
 const axios = require('axios');
 var express = require('express'),
   cors = require('cors');
@@ -206,9 +192,9 @@ app.post('/register', async (req, res) => {
     const saldo = 0; 
     const total = 0;
     const key = keycode;
-    const insta = "@clovermods"
+    const insta = "@fantasmamdz"
     const zap = "55759865969696"
-    const yt = "youtube.com/@clovermods"
+    const yt = "youtube.com/fantasma"
     const wallpaper = "https://telegra.ph/file/56fa53ec05377a51311cc.jpg"
     const user = new User({ username, password, email, key, saldo, total, ft, zap, insta, yt, wallpaper, isAdm: false });
     await user.save();
@@ -370,4 +356,3 @@ app.listen(3000, () => {
 })
 
 module.exports = app
-/* @CLOVERMYT */

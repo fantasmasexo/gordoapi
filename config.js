@@ -1,7 +1,7 @@
 
 // token de seu Cluster do mongoDb
 
-const token = 'SEU CLUSTER AQUI'; 
+const token = 'mongodb://127.0.0.1:27017/trevo'; 
 
 module.exports = {
 token
@@ -20,3 +20,4 @@ token
 // Comunidade WhatsApp: https://chat.whatsapp.com/Kc5HLGCIokb37mA36NJrM6
 
 // SE FOR REPOSTAR ME MARCA 🧙‍♂️🍀
+
